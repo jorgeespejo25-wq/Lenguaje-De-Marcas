@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="usuarios">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="usuario" type="tipoUsuario" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <!-- Definición del tipo complejo usuario -->
+    <xs:complexType name="tipoUsuario">
+        <xs:sequence>
+            <xs:element name="nombre" type="userType"/>
+            <xs:element name="email" type="emailType"/>
+            <xs:element name="telefono" type="telefonoType"/>
+            <xs:element name="codigoPostal" type="codigoPostalType"/>
+            <xs:element name="password" type="passwordType"/>
+        </xs:sequence>
+        <xs:attribute name="id" type="xs:string" use="required"/>
+    </xs:complexType>
+    <!-- Expresiones regulares (tipos simples) -->
+    <xs:simpleType name="userType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[a-z][a-z0-9_]{3,15}"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="emailType">
+        <xs:restriction base="xs:string">
+            <xs:pattern 
+             value="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="telefonoType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[6789][0-9]{8}"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="codigoPostalType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[0-9]{5}"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="passwordType">
+        <xs:restriction base="xs:string">
+            <xs:pattern 
+             value="(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&amp;*()_+&#123;&#125;\[\]:;&lt;&gt;,.?~\\-]).{8,16}"/>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>

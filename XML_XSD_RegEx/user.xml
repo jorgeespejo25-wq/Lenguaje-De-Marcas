@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="valid_user.xsd" type="application/xml" 
+        schematypens="http://www.w3.org/2001/XMLSchema"?>
+<usuarios>
+    <usuario id="A001">
+        <nombre>user_99</nombre>
+        <email>melomano.2026@mail.com</email>
+        <telefono>600112233</telefono>
+        <codigoPostal>28001</codigoPostal>
+        <password>S0ng_Str3am!99</password>
+    </usuario>
+    <usuario id="A002">
+        <nombre>indie_rocker</nombre>
+        <email>contacto.ritmo@webmail.es</email>
+        <telefono>611223344</telefono>
+        <codigoPostal>08002</codigoPostal>
+        <password>B3at_Drop_2026</password>
+    </usuario>
+    <usuario id="A003">
+        <nombre>pixel_mood</nombre>
+        <email>info.jazz@provider.com</email>
+        <telefono>622334455</telefono>
+        <codigoPostal>41005</codigoPostal>
+        <password>Sax0_M00d_#1</password>
+    </usuario>
+    <usuario id="A004">
+        <nombre>viva_la_musica</nombre>
+        <email>rock.vibes.fan@email.net</email>
+        <telefono>633445566</telefono>
+        <codigoPostal>48003</codigoPostal>
+        <password>Gu1tar_Riff_77</password>
+    </usuario>
+    <usuario id="A005">
+        <nombre>music_fan</nombre>
+        <email>explorer.indie@fastmail.com</email>
+        <telefono>644556677</telefono>
+        <codigoPostal>29004</codigoPostal>
+        <password>V1nyl_Rec_ord</password>
+    </usuario>
+    <usuario id="A006">
+        <nombre>ritmo2026</nombre>
+        <email>neon.nights@retro.com</email>
+        <telefono>655667788</telefono>
+        <codigoPostal>50001</codigoPostal>
+        <password>R3tro_Future!8</password>
+    </usuario>
+    <usuario id="A007">
+        <nombre>lofi_vibe</nombre>
+        <email>techno.pulse@dance.org</email>
+        <telefono>666778899</telefono>
+        <codigoPostal>15004</codigoPostal>
+        <password>BPM_140_Dance</password>
+    </usuario>
+    <usuario id="A008">
+        <nombre>zota</nombre>
+        <email>piano.sonata@music.edu</email>
+        <telefono>677889900</telefono>
+        <codigoPostal>46002</codigoPostal>
+        <password>Opus_9_Master</password>
+    </usuario>
+    <usuario id="A009">
+        <nombre>sky_is_the_limit</nombre>
+        <email>voices.daily@media.com</email>
+        <telefono>688990011</telefono>
+        <codigoPostal>33001</codigoPostal>
+        <password>Talk_Sh0w_2026</password>
+    </usuario>
+    <usuario id="A010">
+        <nombre>b_side_tales</nombre>
+        <email>unplugged.vibes@acoustic.com</email>
+        <telefono>699001122</telefono>
+        <codigoPostal>07001</codigoPostal>
+        <password>Soft_Strumb_12</password>
+    </usuario>
+</usuarios>
