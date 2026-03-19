@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="practica20260319.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<bibliotecaTecnica>
+    <recurso id="R001" formato="HTML">
+        <titulo>XML Path Language (XPath) 3.1</titulo>
+        <autor>Robie, J.</autor>
+        <autor>Dyck, M.</autor>
+        <autor>Spiegel, J.</autor>
+        <anio>2017</anio>
+        <categoria>XPath</categoria>
+        <nivel>5</nivel>
+        <disponible>true</disponible>
+    </recurso>
+    <recurso id="R002">
+        <titulo>Learning XML</titulo>
+        <autor>Erik T. Ray</autor>
+        <anio>2003</anio>
+        <categoria>XML</categoria>
+        <nivel>2</nivel>
+        <disponible>true</disponible>
+    </recurso>
+    <recurso id="R003" formato="PDF">
+        <titulo>XSL Transformations (XSLT) Version 3.0</titulo>
+        <autor>Kay, M.</autor>
+        <anio>2017</anio>
+        <categoria>XSLT</categoria>
+        <nivel>5</nivel>
+        <disponible>true</disponible>
+    </recurso>
+    <recurso id="R004">
+        <titulo>HTML5 Living Standard</titulo>
+        <autor>WHATWG</autor>
+        <anio>2024</anio>
+        <categoria>HTML</categoria>
+        <nivel>3</nivel>
+        <disponible>true</disponible>
+    </recurso>
+    <recurso id="R005">
+        <titulo>CSS Cascading and Inheritance Level 4</titulo>
+        <autor>Atkins, T.</autor>
+        <autor>Etemad, E.</autor>
+        <anio>2022</anio>
+        <categoria>CSS</categoria>
+        <nivel>4</nivel>
+        <disponible>false</disponible>
+    </recurso>
+    <recurso id="R006">
+        <titulo>JSON Data Interchange Syntax</titulo>
+        <autor>ECMA International</autor>
+        <anio>2017</anio>
+        <categoria>JSON</categoria>
+        <nivel>1</nivel>
+        <disponible>true</disponible>
+    </recurso>
+    <recurso id="R007">
+        <titulo>XPath 2.0 Programmer's Reference</titulo>
+        <autor>Michael Kay</autor>
+        <anio>2004</anio>
+        <categoria>XPath</categoria>
+        <nivel>4</nivel>
+        <disponible>true</disponible>
+    </recurso>
+    <recurso id="R008">
+        <titulo>XML In a Nutshell</titulo>
+        <autor>Elliotte Rusty Harold</autor>
+        <anio>2004</anio>
+        <categoria>XML</categoria>
+        <nivel>2</nivel>
+        <disponible>true</disponible>
+    </recurso>
+    <recurso id="R009">
+        <titulo>Responsive Web Design with HTML5 and CSS</titulo>
+        <autor>Ben Frain</autor>
+        <anio>2020</anio>
+        <categoria>CSS</categoria>
+        <nivel>3</nivel>
+        <disponible>true</disponible>
+    </recurso>
+    <recurso id="R010">
+        <titulo>Introduction to Information Retrieval</titulo>
+        <autor>Manning, C.</autor>
+        <anio>2008</anio>
+        <categoria>Web Standards</categoria>
+        <nivel>5</nivel>
+        <disponible>false</disponible>
+    </recurso>
+    <recurso id="R011">
+        <titulo>SVG 2.0 Specification</titulo>
+        <autor>W3C</autor>
+        <anio>2018</anio>
+        <categoria>XML</categoria>
+        <nivel>4</nivel>
+        <disponible>true</disponible>
+    </recurso>
+    <recurso id="R012">
+        <titulo>DOM Level 3 Core Specification</titulo>
+        <autor>Hors, A.</autor>
+        <autor>Le Hégaret, P.</autor>
+        <anio>2004</anio>
+        <categoria>Web Standards</categoria>
+        <nivel>4</nivel>
+        <disponible>true</disponible>
+    </recurso>
+    <recurso id="R013">
+        <titulo>JSON Schema: A Media Type for Describing JSON Data</titulo>
+        <autor>Wright, A.</autor>
+        <anio>2020</anio>
+        <categoria>JSON</categoria>
+        <nivel>3</nivel>
+        <disponible>true</disponible>
+    </recurso>
+    <recurso id="R014">
+        <titulo>Definitive XML Schema</titulo>
+        <autor>Priscilla Walmsley</autor>
+        <anio>2012</anio>
+        <categoria>XML</categoria>
+        <nivel>4</nivel>
+        <disponible>true</disponible>
+    </recurso>
+    <recurso id="R015">
+        <titulo>CSS Secrets</titulo>
+        <autor>Lea Verou</autor>
+        <anio>2015</anio>
+        <categoria>CSS</categoria>
+        <nivel>4</nivel>
+        <disponible>true</disponible>
+    </recurso>
+    <recurso id="R016">
+        <titulo>XQuery 3.1: An XML Query Language</titulo>
+        <autor>W3C</autor>
+        <anio>2017</anio>
+        <categoria>XPath</categoria>
+        <nivel>5</nivel>
+        <disponible>true</disponible>
+    </recurso>
+    <recurso id="R017">
+        <titulo>Beginning HTML5 and CSS3</titulo>
+        <autor>Christopher Murphy</autor>
+        <anio>2012</anio>
+        <categoria>HTML</categoria>
+        <nivel>2</nivel>
+        <disponible>true</disponible>
+    </recurso>
+    <recurso id="R018">
+        <titulo>A Brief History of HTML</titulo>
+        <autor>Berners-Lee, T.</autor>
+        <anio>1995</anio>
+        <categoria>HTML</categoria>
+        <nivel>1</nivel>
+        <disponible>true</disponible>
+    </recurso>
+    <recurso id="R019">
+        <titulo>The XML Bible</titulo>
+        <autor>Elliotte Rusty Harold</autor>
+        <anio>2001</anio>
+        <categoria>XML</categoria>
+        <nivel>3</nivel>
+        <disponible>true</disponible>
+    </recurso>
+    <recurso id="R020">
+        <titulo>XSL-FO</titulo>
+        <autor>Dave Pawson</autor>
+        <anio>2002</anio>
+        <categoria>XSLT</categoria>
+        <nivel>4</nivel>
+        <disponible>false</disponible>
+    </recurso>
+    <recurso id="R021">
+        <titulo>JavaScript: The Good Parts</titulo>
+        <autor>Douglas Crockford</autor>
+        <anio>2008</anio>
+        <categoria>JSON</categoria>
+        <nivel>3</nivel>
+        <disponible>true</disponible>
+    </recurso>
+    <recurso id="R022">
+        <titulo>Web Content Accessibility Guidelines (WCAG) 2.1</titulo>
+        <autor>W3C</autor>
+        <anio>2018</anio>
+        <categoria>Web Standards</categoria>
+        <nivel>4</nivel>
+        <disponible>true</disponible>
+    </recurso>
+    <recurso id="R023">
+        <titulo>XPath and XPointer</titulo>
+        <autor>John Simpson</autor>
+        <anio>2002</anio>
+        <categoria>XPath</categoria>
+        <nivel>3</nivel>
+        <disponible>true</disponible>
+    </recurso>
+    <recurso id="R024">
+        <titulo>High Performance Web Sites</titulo>
+        <autor>Steve Souders</autor>
+        <anio>2007</anio>
+        <categoria>Web Standards</categoria>
+        <nivel>3</nivel>
+        <disponible>true</disponible>
+    </recurso>
+    <recurso id="R025">
+        <titulo>CSS The Definitive Guide</titulo>
+        <autor>Eric Meyer</autor>
+        <anio>2017</anio>
+        <categoria>CSS</categoria>
+        <nivel>4</nivel>
+        <disponible>true</disponible>
+    </recurso>
+    <recurso id="R026">
+        <titulo>Mastering XSLT 2.0</titulo>
+        <autor>Jeni Tennison</autor>
+        <anio>2005</anio>
+        <categoria>XSLT</categoria>
+        <nivel>5</nivel>
+        <disponible>true</disponible>
+    </recurso>
+    <recurso id="R027">
+        <titulo>HTML and CSS: Design and Build Websites</titulo>
+        <autor>Jon Duckett</autor>
+        <anio>2011</anio>
+        <categoria>HTML</categoria>
+        <nivel>1</nivel>
+        <disponible>true</disponible>
+    </recurso>
+    <recurso id="R028">
+        <titulo>XLink and XPointer</titulo>
+        <autor>DeRose, S.</autor>
+        <anio>2001</anio>
+        <categoria>XML</categoria>
+        <nivel>4</nivel>
+        <disponible>false</disponible>
+    </recurso>
+    <recurso id="R029">
+        <titulo>Modern CSS with Tailwind</titulo>
+        <autor>Noel Rappin</autor>
+        <anio>2021</anio>
+        <categoria>CSS</categoria>
+        <nivel>2</nivel>
+        <disponible>true</disponible>
+    </recurso>
+    <recurso id="R030">
+        <titulo>The Elements of Content Strategy</titulo>
+        <autor>Erin Kissane</autor>
+        <anio>2011</anio>
+        <categoria>Web Standards</categoria>
+        <nivel>2</nivel>
+        <disponible>true</disponible>
+    </recurso>
+</bibliotecaTecnica>
