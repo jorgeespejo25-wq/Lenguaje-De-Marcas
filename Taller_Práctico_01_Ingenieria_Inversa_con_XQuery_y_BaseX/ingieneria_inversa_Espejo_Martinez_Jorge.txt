@@ -1,0 +1,25 @@
+Autor Jorge Esperjo Matínez
+RETO 1: El Filtro de Selección
+    Objetivo. 
+      Muestra los títulos de los libros de la categoría 
+      "programacion" que valgan más de 30€, ordenados por título 
+      de la Z a la A.
+    Consulta
+      for $libro in doc ("biblioteca.xml")
+      let $titulo := $libro/titulo
+          $precio := $libro/precio
+      where number $libro/@categoria =  "programacion"; 
+      where number($precio) >= 30
+      order by $libro/titulo
+      return
+        <resulado>
+          { $titulo } - { $precio }
+        </resulado>
+
+    Resultado esperado en BaseX
+      <resultado>Título: XQuery para Expertos - Precio: 35€</resultado>
+      <resultado>Título: Python Avanzado - Precio: 38.5€</resultado>
+      <resultado>Título: Mastering XML - Precio: 42€</resultado>
+      <resultado>Título: Kotlin para Android - Precio: 45€</resultado>
+
+Pista: Recuerda usar number() para el precio y fíjate en el order by descending.
