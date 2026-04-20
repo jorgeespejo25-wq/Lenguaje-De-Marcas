@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="logistics.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<EcoLogistics>
+    <Vehiculo>
+        <Matricula>1234FGH</Matricula>
+        <Modelo>Tesla Semi-Light</Modelo>
+        <Bateria>12</Bateria>
+        <Estado>En ruta</Estado>
+        <CargaAsignada>
+            <Paquete>
+                <ID_Paquete>PKG-10001A</ID_Paquete>
+                <Destino>Sevilla - Centro</Destino>
+            </Paquete>
+        </CargaAsignada>
+    </Vehiculo>
+    <Vehiculo>
+        <Matricula>5678JKL</Matricula>
+        <Modelo>Renault E-Tech</Modelo>
+        <Bateria>85</Bateria>
+        <Estado>Disponible</Estado>
+        <CargaAsignada>
+            <Paquete>
+                <ID_Paquete>PKG-00001Z</ID_Paquete>
+                <Destino>Pendiente</Destino>
+            </Paquete>
+        </CargaAsignada>
+    </Vehiculo>
+    <Vehiculo>
+        <Matricula>9012MNP</Matricula>
+        <Modelo>Amazon Rivian</Modelo>
+        <Bateria>8</Bateria>
+        <Estado>En ruta</Estado>
+        <CargaAsignada>
+            <Paquete>
+                <ID_Paquete>PKG-20202B</ID_Paquete>
+                <Destino>Málaga - Puerto</Destino>
+            </Paquete>
+        </CargaAsignada>
+    </Vehiculo>
+    <Vehiculo>
+        <Matricula>3456RST</Matricula>
+        <Modelo>Drone Cargo X1</Modelo>
+        <Bateria>45</Bateria>
+        <Estado>Cargando</Estado>
+        <CargaAsignada>
+            <Paquete>
+                <ID_Paquete>PKG-00002Z</ID_Paquete>
+                <Destino>Pendiente</Destino>
+            </Paquete>
+        </CargaAsignada>
+    </Vehiculo>
+    <Vehiculo>
+        <Matricula>7890VWX</Matricula>
+        <Modelo>Tesla Semi-Light</Modelo>
+        <Bateria>98</Bateria>
+        <Estado>En ruta</Estado>
+        <CargaAsignada>
+            <Paquete>
+                <ID_Paquete>PKG-33333C</ID_Paquete>
+                <Destino>Granada - Albaicín</Destino>
+            </Paquete>
+        </CargaAsignada>
+    </Vehiculo>
+    <Vehiculo>
+        <Matricula>1122BCD</Matricula>
+        <Modelo>Ford E-Transit</Modelo>
+        <Bateria>10</Bateria>
+        <Estado>En ruta</Estado>
+        <CargaAsignada>
+            <Paquete>
+                <ID_Paquete>PKG-44444D</ID_Paquete>
+                <Destino>Cádiz - Bahía</Destino>
+            </Paquete>
+        </CargaAsignada>
+    </Vehiculo>
+    <Vehiculo>
+        <Matricula>3344FGH</Matricula>
+        <Modelo>Renault E-Tech</Modelo>
+        <Bateria>5</Bateria>
+        <Estado>Averiado</Estado>
+        <CargaAsignada>
+            <Paquete>
+                <ID_Paquete>PKG-00003Z</ID_Paquete>
+                <Destino>Pendiente</Destino>
+            </Paquete>
+        </CargaAsignada>
+    </Vehiculo>
+    <Vehiculo>
+        <Matricula>5566JKL</Matricula>
+        <Modelo>Amazon Rivian</Modelo>
+        <Bateria>72</Bateria>
+        <Estado>En ruta</Estado>
+        <CargaAsignada>
+            <Paquete>
+                <ID_Paquete>PKG-55555E</ID_Paquete>
+                <Destino>Huelva - Aljaraque</Destino>
+            </Paquete>
+        </CargaAsignada>
+    </Vehiculo>
+    <Vehiculo>
+        <Matricula>7788MNP</Matricula>
+        <Modelo>Tesla Semi-Light</Modelo>
+        <Bateria>100</Bateria>
+        <Estado>Disponible</Estado>
+        <CargaAsignada>
+            <Paquete>
+                <ID_Paquete>PKG-00004Z</ID_Paquete>
+                <Destino>Pendiente</Destino>
+            </Paquete>
+        </CargaAsignada>
+    </Vehiculo>
+    <Vehiculo>
+        <Matricula>9900RST</Matricula>
+        <Modelo>Drone Cargo X1</Modelo>
+        <Bateria>14</Bateria>
+        <Estado>En ruta</Estado>
+        <CargaAsignada>
+            <Paquete>
+                <ID_Paquete>PKG-66666F</ID_Paquete>
+                <Destino>Córdoba - Mezquita</Destino>
+            </Paquete>
+        </CargaAsignada>
+    </Vehiculo>
+    <Vehiculo>
+        <Matricula>1357VWX</Matricula>
+        <Modelo>Ford E-Transit</Modelo>
+        <Bateria>60</Bateria>
+        <Estado>En ruta</Estado>
+        <CargaAsignada>
+            <Paquete>
+                <ID_Paquete>PKG-77777G</ID_Paquete>
+                <Destino>Almería - Cabo Gata</Destino>
+            </Paquete>
+        </CargaAsignada>
+    </Vehiculo>
+    <Vehiculo>
+        <Matricula>2468BCD</Matricula>
+        <Modelo>Renault E-Tech</Modelo>
+        <Bateria>30</Bateria>
+        <Estado>Cargando</Estado>
+        <CargaAsignada>
+            <Paquete>
+                <ID_Paquete>PKG-00005Z</ID_Paquete>
+                <Destino>Pendiente</Destino>
+            </Paquete>
+        </CargaAsignada>
+    </Vehiculo>
+    <Vehiculo>
+        <Matricula>3690FGH</Matricula>
+        <Modelo>Amazon Rivian</Modelo>
+        <Bateria>11</Bateria>
+        <Estado>En ruta</Estado>
+        <CargaAsignada>
+            <Paquete>
+                <ID_Paquete>PKG-88888H</ID_Paquete>
+                <Destino>Jaén - Catedral</Destino>
+            </Paquete>
+        </CargaAsignada>
+    </Vehiculo>
+    <Vehiculo>
+        <Matricula>4821JKL</Matricula>
+        <Modelo>Tesla Semi-Light</Modelo>
+        <Bateria>90</Bateria>
+        <Estado>Disponible</Estado>
+        <CargaAsignada>
+            <Paquete>
+                <ID_Paquete>PKG-00006Z</ID_Paquete>
+                <Destino>Pendiente</Destino>
+            </Paquete>
+        </CargaAsignada>
+    </Vehiculo>
+    <Vehiculo>
+        <Matricula>5050MNP</Matricula>
+        <Modelo>Drone Cargo X1</Modelo>
+        <Bateria>2</Bateria>
+        <Estado>Averiado</Estado>
+        <CargaAsignada>
+            <Paquete>
+                <ID_Paquete>PKG-00007Z</ID_Paquete>
+                <Destino>Pendiente</Destino>
+            </Paquete>
+        </CargaAsignada>
+    </Vehiculo>
+    <Vehiculo>
+        <Matricula>6060RST</Matricula>
+        <Modelo>Ford E-Transit</Modelo>
+        <Bateria>40</Bateria>
+        <Estado>En ruta</Estado>
+        <CargaAsignada>
+            <Paquete>
+                <ID_Paquete>PKG-99999I</ID_Paquete>
+                <Destino>Jerez - Circuito</Destino>
+            </Paquete>
+        </CargaAsignada>
+    </Vehiculo>
+    <Vehiculo>
+        <Matricula>7070VWX</Matricula>
+        <Modelo>Renault E-Tech</Modelo>
+        <Bateria>13</Bateria>
+        <Estado>En ruta</Estado>
+        <CargaAsignada>
+            <Paquete>
+                <ID_Paquete>PKG-11112J</ID_Paquete>
+                <Destino>Antequera - Torcal</Destino>
+            </Paquete>
+        </CargaAsignada>
+    </Vehiculo>
+    <Vehiculo>
+        <Matricula>8080BCD</Matricula>
+        <Modelo>Amazon Rivian</Modelo>
+        <Bateria>55</Bateria>
+        <Estado>Cargando</Estado>
+        <CargaAsignada>
+            <Paquete>
+                <ID_Paquete>PKG-00008Z</ID_Paquete>
+                <Destino>Pendiente</Destino>
+            </Paquete>
+        </CargaAsignada>
+    </Vehiculo>
+    <Vehiculo>
+        <Matricula>9090FGH</Matricula>
+        <Modelo>Tesla Semi-Light</Modelo>
+        <Bateria>88</Bateria>
+        <Estado>Disponible</Estado>
+        <CargaAsignada>
+            <Paquete>
+                <ID_Paquete>PKG-00009Z</ID_Paquete>
+                <Destino>Pendiente</Destino>
+            </Paquete>
+        </CargaAsignada>
+    </Vehiculo>
+    <Vehiculo>
+        <Matricula>2233JKL</Matricula>
+        <Modelo>Drone Cargo X1</Modelo>
+        <Bateria>9</Bateria>
+        <Estado>En ruta</Estado>
+        <CargaAsignada>
+            <Paquete>
+                <ID_Paquete>PKG-22223K</ID_Paquete>
+                <Destino>Marbella - Puerto Banús</Destino>
+            </Paquete>
+        </CargaAsignada>
+    </Vehiculo>
+</EcoLogistics>

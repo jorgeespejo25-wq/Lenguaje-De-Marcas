@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:simpleType name="tipoMatricula">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[0-9]{4}[BCDFGHJKLMNPQRSTVWXYZ]{3}" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="tipoIDPaquete">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="PKG-[0-9]{5}[A-Z]" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="tipoEstado">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="En ruta" />
+            <xs:enumeration value="Cargando" />
+            <xs:enumeration value="Disponible" />
+            <xs:enumeration value="Averiado" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:element name="EcoLogistics">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Vehiculo" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Matricula" type="tipoMatricula" />
+                            <xs:element name="Modelo" type="xs:string" />
+                            <xs:element name="Bateria">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:integer">
+                                        <xs:minInclusive value="0" />
+                                        <xs:maxInclusive value="100" />
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="Estado" type="tipoEstado" />
+                            <xs:element name="CargaAsignada">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="Paquete" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="ID_Paquete"
+                                                        type="tipoIDPaquete" />
+                                                    <xs:element name="Destino" type="xs:string" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>
