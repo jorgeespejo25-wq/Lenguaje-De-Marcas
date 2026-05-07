@@ -43,7 +43,7 @@ Abro la terminal integrada y dejo los logs corriendo mediante el comando docker 
    7. En cuestión de milisegundos, el ORM de Odoo procesará el texto plano, ejecutará los *INSERT INTO res\_partner* en PostgreSQL y tendré 10 clientes con los que jugar a crear presupuestos, facturar y luego exportar de forma masiva.
 
 3. **El ciclo de negocio**.  
-   1. Entro con el usuario comercial y creo un **Presupuesto** para un nuevo cliente. Añado un producto que sea de tipo "Almacenable", es decir, físico (por ejemplo, "mouse rojo").  
+   1. Entro con el usuario comercial y creo un **Presupuesto** para un nuevo cliente. Añado un producto que sea de tipo "Almacenable/Bienes", es decir, físico (por ejemplo, "mouse rojo", pero se tiene que crear primero con el modo administrador).  
       *Nota*: Si el producto fuera un "Servicio", el sistema inteligente de Odoo no generaría una orden de entrega, ya que los servicios no ocupan espacio físico.  
    2. **Hago clic en Confirmar**. Observo la máquina de estados: el documento pasa de 'Presupuesto' a 'Pedido de Venta'. Me fijo en la esquina superior derecha del formulario: acaba de aparecer un "*Smart Button*" con el icono de un camión que indica *1 Entrega*.  
    3. **¡Aquí está la integración en acción\!** El módulo de Ventas se ha comunicado de forma transparente con el de Inventario. Al hacer clic en ese camión. Veo que el producto está en estado "**Reservado**". Valido la entrega (simulando que el mozo de almacén ha cogido la caja, la ha escaneado y se la ha entregado al transportista).  
